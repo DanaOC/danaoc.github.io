@@ -1,11 +1,241 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Portafolio de Dan</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dana Ocaña</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <h1>¡Hola otra vez!</h1>
-  <p>Ahora sí, con nombre correcto.</p>
+  <!-- Navigation -->
+  <nav>
+    <div class="container nav-container">
+      <div class="logo">DanaOC Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header / About Me -->
+  <header id="about">
+    <div class="container header-content">
+      <h1>Hey there, I'm Dana Ocaña 👋</h1>
+      <p>I like creating things with code: from interactive games in Unity, to web applications and data-driven insights.</p>
+      
+      <div class="header-highlights">
+        <p>
+          <span class="highlight-icon">🔎</span>
+          <span>Currently learning: SQL, Power BI, and data visualization.</span>
+        </p>
+        <p>
+          <span class="highlight-icon">💡</span>
+          <span>Strongest skills: Python, problem-solving, and creative project design.</span>
+        </p>
+        <p>
+          <span class="highlight-icon">🎯</span>
+          <span>Goal: keep growing as a developer and data professional, and build a portfolio that reflects both.</span>
+        </p>
+      </div>
+    </div>
+  </header
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects 🖥️</h2>
+      
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Sales Dashboard</h3>
+            <p>Mini dashboard en Excel mostrando ventas por producto y trimestre.</p>
+            <div class="project-meta">
+              <div class="technologies">
+                <span class="tech-tag">Excel</span>
+                <span class="tech-tag">SQL</span>
+              </div>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Movie Dataset Analysis</h3>
+            <p>Analysis of IMDB movies using SQL queries.</p>
+            <div class="project-meta">
+              <div class="technologies">
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Python</span>
+              </div>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Power BI Dashboard</h3>
+            <p>Interactive dashboard of sales data.</p>
+            <div class="project-meta">
+              <div class="technologies">
+                <span class="tech-tag">Power BI</span>
+                <span class="tech-tag">Excel</span>
+              </div>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+<section id="skills">
+  <div class="container">
+    <h2 class="section-title">Skills and Technologies 🚀</h2>
+    
+    <div class="skills-grid">
+
+      <!-- Programming -->
+      <div class="skill-category">
+        <h3><i class="fas fa-code"></i> Programming</h3>
+        <div class="skills-icons">
+          <span class="skill-item"><i class="fab fa-python"></i> Python</span>
+          <span class="skill-item"><i class="fas fa-database"></i> SQL</span>
+          <span class="skill-item"><i class="fab fa-html5"></i> HTML/CSS/JS</span>
+        </div>
+      </div>
+
+      <!-- Data Analysis -->
+      <div class="skill-category">
+        <h3><i class="fas fa-chart-bar"></i> Data Analysis</h3>
+        <div class="skills-icons">
+          <span class="skill-item"><i class="fas fa-file-excel"></i> Excel</span>
+          <span class="skill-item"><i class="fas fa-chart-line"></i> Power BI</span>
+          <span class="skill-item"><i class="fas fa-chart-pie"></i> Data Visualization</span>
+        </div>
+      </div>
+
+      <!-- Mobile Development -->
+      <div class="skill-category">
+        <h3><i class="fas fa-mobile-alt"></i> Mobile Development</h3>
+        <div class="skills-icons">
+          <span class="skill-item"><i class="fab fa-android"></i> Android Studio</span>
+          <span class="skill-item"><i class="fab fa-react"></i> React Native</span>
+        </div>
+      </div>
+
+      <!-- Other -->
+      <div class="skill-category">
+  <h3><i class="fas fa-lightbulb"></i> Other</h3>
+  <div class="skills-icons">
+    <span class="skill-item"><i class="fas fa-brain"></i> Critical Thinking</span>
+    <span class="skill-item"><i class="fas fa-search"></i> Attention to Detail</span>
+    <span class="skill-item"><i class="fas fa-comments"></i> Communication</span>
+    <span class="skill-item"><i class="fas fa-users"></i> Teamwork</span>
+    <span class="skill-item"><i class="fas fa-sync-alt"></i> Adaptability</span>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+  
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:dan@example.com">dana.ocana.m@gmail.com</a>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <div>
+              <h4>LinkedIn</h4>
+              <a href="#">linkedin.com/in/dana-ocana</a>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <div>
+              <h4>GitHub</h4>
+              <a href="#">github.com/danOC</a>
+            </div>
+          </div>
+          
+         
+        </div>
+        
+        <div class="contact-form">
+          <h3>Send me a message</h3>
+          <form action="https://formsubmit.co/dana.ocana.m@gmail.com" method="POST">
+            <div style="margin-bottom: 15px;">
+              <input type="text" placeholder="Your Name" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+              <input type="email" placeholder="Your Email" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+              <textarea placeholder="Your Message" rows="5" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px;"></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Dana's Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <a href="#" class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script>
+    // Back to top button
+    const backToTopButton = document.getElementById("backToTop");
+    
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 300) {
+        backToTopButton.classList.add("visible");
+      } else {
+        backToTopButton.classList.remove("visible");
+      }
+    });
+    
+    backToTopButton.addEventListener("click", (e) => {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
 </body>
 </html>
